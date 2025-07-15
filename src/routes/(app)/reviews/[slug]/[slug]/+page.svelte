@@ -37,7 +37,7 @@
 </script>
 
 <svelte:head>
-    <title>{title} • {parentTitle} • Gene Marks</title>
+    <title>{title} • {parentTitle} • Cinema Blood</title>
     <meta name="description" content="{excerpt}" />
 </svelte:head>
 

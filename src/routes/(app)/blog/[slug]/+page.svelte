@@ -4,7 +4,7 @@
     import LikeButton from '$lib/components/LikeButton.svelte';
     import CopyToClipboard from '$lib/components/CopyToClipboard.svelte';
     import '../../../../styles/markdown.postcss';
-    
+
     export let data;
 
 
@@ -31,7 +31,7 @@
 </script>
 
 <svelte:head>
-    <title>{title} • Blog • Gene Marks</title>
+    <title>{title} • Blog • Cinema Blood</title>
     <meta name="description" content="{excerpt}" />
 </svelte:head>
 

@@ -1,20 +1,20 @@
 <svelte:head>
-    <title>Fair Use Disclaimer • Gene Marks</title>
-    <meta name="description" content="This site is for educational purposes only. Gene Marks is a hobbyist, non-profit review site." />
+    <title>Fair Use Disclaimer • Cinema Blood</title>
+    <meta name="description" content="This site is for educational purposes only. Cinema Blood is a hobbyist, non-profit review site." />
 </svelte:head>
 
 <div class="mx-6 mt-8">
     <h1>Fair Use Act Disclaimer</h1>
 
-    <p>This site is for educational purposes only. Gene Marks is a hobbyist, non-profit review site.</p>
+    <p>This site is for educational purposes only. Cinema Blood is a hobbyist, non-profit review site.</p>
 
 
     <h2>Fair Use</h2>
 
     <p>Copyright Disclaimer under section 107 of the Copyright Act of 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.</p>
-    
+
     <p>Fair use is a use permitted by copyright statute that might otherwise be infringing.</p>
-    
+
 
     <h2>Fair Use Definition</h2>
 

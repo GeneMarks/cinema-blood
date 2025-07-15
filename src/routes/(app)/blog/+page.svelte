@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-    <title>Blog • Gene Marks</title>
+    <title>Blog • Cinema Blood</title>
     <meta name="description" content="Articles covering a variety of topics like tutorials, technology, and opinions." />
 </svelte:head>
 
@@ -42,4 +42,3 @@
 
     <Pagination {currentPage} {totalPages} />
 </div>
-

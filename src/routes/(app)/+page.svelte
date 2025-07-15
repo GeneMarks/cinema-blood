@@ -18,7 +18,7 @@
 </script>
 
 <svelte:head>
-    <title>Gene Marks • Media Reviews and Blog</title>
+    <title>Cinema Blood • Media Reviews and Blog</title>
     <meta name="description" content="Movie and TV reviews covering every genre from any time period." />
 </svelte:head>
 

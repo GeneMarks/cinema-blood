@@ -59,20 +59,43 @@
 
 <UserCard {data} />
 
-<div class="mt-6 mx-6 min-h-full">
-    <div class="user-updates">
-        <ul>
-            {#each updates as update}
-                <UserUpdate {update} {avatar} />
-            {/each}
-        </ul>
+<TabGroup class="mt-6 min-h-full">
+    <div class="flex justify-center">
+        <TabList class="flex rounded-md bg-primary-400 md:text-base">
+            <Tab
+                class="{({selected}) => selected
+                ? 'flex items-center px-8 h-10 rounded-l-md text-sm bg-primary-300'
+                : 'flex items-center px-8 h-10 rounded-l-md text-sm hover:text-white'}">
+                Updates
+            </Tab>
 
-        {#if listenUpdates}
-            <InfiniteLoading on:infinite={fetchUpdates}>
-                <Loading slot="spinner" />
-            </InfiniteLoading>
-        {:else}
-            <div class="mt-10">End of updates :)</div>
-        {/if}
+            <Tab
+                on:focus|once={fetchWatchedItems}
+                class="{({selected}) => selected
+                ? 'flex items-center px-8 h-10 rounded-r-md text-sm bg-primary-300'
+                : 'flex items-center px-8 h-10 rounded-r-md text-sm hover:text-white'}">
+                Watching
+            </Tab>
+        </TabList>
     </div>
-</div>
+    <TabPanels class="mt-10 mx-6 min-h-[50vh]">
+        <TabPanel class="user-updates">
+            <ul>
+                {#each updates as update}
+                    <UserUpdate {update} {avatar} />
+                {/each}
+            </ul>
+
+            {#if listenUpdates}
+                <InfiniteLoading on:infinite={fetchUpdates}>
+                    <Loading slot="spinner" />
+                </InfiniteLoading>
+            {:else}
+                <div class="mt-10">End of updates :)</div>
+            {/if}
+        </TabPanel>
+        <TabPanel>
+            <WatchedItems {watchedItems} {watchedLoading} />
+        </TabPanel>
+    </TabPanels>
+</TabGroup>

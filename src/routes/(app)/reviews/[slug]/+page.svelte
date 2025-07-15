@@ -40,7 +40,7 @@
 </script>
 
 <svelte:head>
-    <title>{title} • Reviews • Gene Marks</title>
+    <title>{title} • Reviews • Cinema Blood</title>
     <meta name="description" content="{excerpt}" />
 </svelte:head>
 
@@ -57,7 +57,7 @@
 
             <aside class="flex flex-col-reverse gap-x-4 flex-wrap items-center justify-center sm:flex-row
                 {type === 'movie' ? 'gap-y-3' : 'gap-y-4'}">
-               
+
                 {#if seasons?.length}
                     <SeasonsMenu {seasonData} />
                 {:else}

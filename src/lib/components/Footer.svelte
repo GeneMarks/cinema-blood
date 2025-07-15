@@ -14,7 +14,7 @@
                 <li class="hover:text-secondary-200"><a target="_blank" href="https://github.com/GeneMarks/genemarks-v2">Source</a></li>
             </ul>
         </nav>
-        <aside class="text-primary-100/60">Gene Marks &copy; {`${new Date().getFullYear()}`}.</aside>
+        <aside class="text-primary-100/60">Cinema Blood &copy; {`${new Date().getFullYear()}`}.</aside>
     </div>
 
     <Pet />

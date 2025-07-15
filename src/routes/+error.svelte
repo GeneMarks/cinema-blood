@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>404 • Gene Marks</title>
+    <title>404 • Cinema Blood</title>
     <meta name="description" content="Error. Page not found." />
 </svelte:head>
 

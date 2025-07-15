@@ -2,7 +2,7 @@ import { json } from '@sveltejs/kit';
 import pets from '$lib/server/pets.json';
 
 
-const birthday = '12/09';
+const birthday = '01/01';
 const typeOdds = {
     'normal': 80,
     'seasonal': 20
@@ -30,19 +30,19 @@ const roulette = (options) => { // Options must add up to 100
 const randPet = (key, val) => {
     const filteredPets = pets.filter(item => item[key] === val);
     const rand = Math.floor(Math.random() * filteredPets.length);
-        
+
     return filteredPets[rand];
 };
 
 
 export const GET = async () => {
-    
+
     const getPet = () => {
         const date = new Date();
         const formattedDate = date.toLocaleString('en-US', { month: '2-digit', day: '2-digit' });
         const season = date.toLocaleString('en-US', { month: 'long' }).toLowerCase();
         const birthdayDate = new Date(birthday).toLocaleString('en-US', { month: '2-digit', day: '2-digit' });
-            
+
         const chosenRarity = roulette(rarityOdds);
         const seasonalPets = pets.filter(item => item.season === season);
 
