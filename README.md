@@ -1,5 +1,6 @@
 Hobbyist blog and media review site. 🍿
 
+<img width="1863" height="922" alt="cinemablood_cover" src="https://github.com/user-attachments/assets/08b4bdb8-db5f-41ba-8426-dd765b5705e7" />
 
 ## Built with
 - 🚀 [Sveltekit](https://kit.svelte.dev)
@@ -12,6 +13,9 @@ Hobbyist blog and media review site. 🍿
 1. See example .env for reference.
 2. Run `npm run dev` or `npm run build` to build with node.js adapter.
 
+
+## Video Demo
+https://github.com/user-attachments/assets/5c8d03cf-55ab-4e5d-989e-f5b29e17754c
 
 ---
 
