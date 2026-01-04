@@ -2,11 +2,11 @@ Hobbyist blog and media review site. 🍿
 
 <img width="1863" height="922" alt="cinemablood_cover" src="https://github.com/user-attachments/assets/08b4bdb8-db5f-41ba-8426-dd765b5705e7" />
 
-## Built with
-- 🚀 [Sveltekit](https://kit.svelte.dev)
-- 📦 [PocketBase](https://pocketbase.io)
-- 🔍 [Meilisearch](https://www.meilisearch.com)
-- 🎨 [Tailwind](https://tailwindcss.com)
+## Built using
+- [Sveltekit](https://kit.svelte.dev)
+- [PocketBase](https://pocketbase.io)
+- [Meilisearch](https://www.meilisearch.com)
+- [Tailwind](https://tailwindcss.com)
 
 
 ## Usage
